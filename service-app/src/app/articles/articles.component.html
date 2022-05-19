@@ -1,0 +1,13 @@
+<!--<app-article-creation (newArticle)="newArticle($event)"></app-article-creation>-->
+<br/>
+<div class="d-flex justify-content-center">
+  <h3>All articles</h3>
+</div>
+<br/>
+<div class="d-flex justify-content-center">
+  <input (input)="searchArticle($event)" (ngModelChange)="searchArticle" type="text" placeholder="Search">
+</div>
+<br/>
+<div *ngFor="let article of this.articles() | async">
+  <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>

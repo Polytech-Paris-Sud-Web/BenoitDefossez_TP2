@@ -1,0 +1,10 @@
+<div>
+  <h3>{{this.article.title}}</h3>
+  <p>{{this.article.content}}</p>
+  <span click="author()"><p>{{this.article.author}}</p></span>
+  <button (click)="delete()">Delete</button>
+  <br />
+  <button (click)="details()">Details</button>
+  <br />
+  <button (click)="author()">Author details</button>
+</div>

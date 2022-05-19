@@ -1,0 +1,8 @@
+<br/>
+<div class="d-flex justify-content-center">
+  <h3>Last 10 articles</h3>
+</div>
+<br/>
+<div *ngFor="let article of this.articles() | async">
+  <app-article  [article]="article" (deletedArticle)="delete($event)"></app-article>
+</div>

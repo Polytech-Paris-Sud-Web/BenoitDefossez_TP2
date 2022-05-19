@@ -1,0 +1,100 @@
+{
+  "articles": [
+    {
+      title: 'My First Article',
+      content: 'Hello World',
+      author: 'Orangefire',
+      "id": 0
+    },
+    {
+      title: 'Angular component',
+      content: 'Angular component looks awesome!',
+      author: 'Orangefire',
+      "id": 1
+    },
+    {
+      title: 'Angular service',
+      content: 'I read something about angular service, i will try it soon',
+      author: 'Orangefire',
+      "id": 2
+    },
+    {
+      "title": "Fake Title",
+      "content": "edfsfs",
+      "author": "fefsfs",
+      "id": 3
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 4
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 5
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 6
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 7
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 8
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 9
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 10
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 11
+    },
+    {
+      "title": "Titre",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 12
+    },
+    {
+      "title": "Titre10",
+      "content": "BLABLABLA",
+      "author": "Moi",
+      "id": 14
+    }
+  ],
+  "authors": [
+    {
+      "name": "Moi",
+      "biography": "Je suis le meilleur auteur de tous les temps.",
+      "id": 1
+    },
+    {
+      "name": "Orangefire",
+      "biography": "Deuxième meilleur auteur, vraiment bof quoi",
+      "id": 2
+    }
+  ]
+}

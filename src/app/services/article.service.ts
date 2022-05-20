@@ -53,6 +53,6 @@ export class ArticleService {
   }
 
   public search(mot: string): Observable<Article[]> {
-    return this.get().pipe(map(articles => articles.filter(article => article.title.includes(mot) || article.content.includes(mot) || article.author.includes(mot))));
+    return this.get().pipe(map(articles => articles.filter(article => article.title.includes(mot) || article.content.includes(mot))));
   }
 }

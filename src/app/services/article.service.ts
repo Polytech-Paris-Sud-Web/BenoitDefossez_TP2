@@ -14,7 +14,7 @@ export class ArticleService {
 
   public preloadArticles$(): Observable<Article[]> {
     if (!this.preloadArticles) {
-      return this.http.get<Article[]>(`${environment.apiUrl}/articles?_sort=date&_order=desc`).pipe(
+      return this.http.get<Article[]>(`${environment.apiUrl}/articles?_sort=date&_order=asc`).pipe(
         map(articles => {
           this.preloadArticles = articles;
           return articles;
@@ -25,7 +25,7 @@ export class ArticleService {
   }
 
   public get(): Observable<Article[]> {
-    return this.preloadArticles ? of(this.preloadArticles) : this.http.get<Article[]>(`${environment.apiUrl}/articles?_sort=date&_order=desc`);
+    return this.preloadArticles ? of(this.preloadArticles) : this.http.get<Article[]>(`${environment.apiUrl}/articles?_sort=date&_order=asc`);
   }
 
   public getLast(): Observable<Article[]> {
